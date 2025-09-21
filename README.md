@@ -25,5 +25,5 @@ Sovelluksen koodi löytyy pääosin app/src/main/java/ -kansiosta
 <p float="left">
   <img src="Screenshots/saa_1.png" width="200" />
   <img src="Screenshots/saa_3.png" width="200" />
-  <img src="Screenshots/saap_4.png" width="200" />
+  <img src="Screenshots/saa_4.png" width="200" />
 </p>
