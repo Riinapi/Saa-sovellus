@@ -18,3 +18,5 @@ Sovellus vaatii OpenWeather API-avaimen.
 Korvaa SaaFragment.kt tiedostossa:
 **private val apiKey = "PUT_YOUR_API_KEY_HERE"**
 
+## Koodi
+Sovelluksen koodi löytyy pääosin app/src/main/java/ -kansiosta
