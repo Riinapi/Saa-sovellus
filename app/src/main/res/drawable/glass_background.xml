@@ -1,0 +1,20 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Sumentamisen taustaksi -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#66FFFFFF" /> <!-- Läpinäkyvä valkoinen -->
+            <corners android:radius="16dp" /> <!-- Kulmien pyöristys -->
+        </shape>
+    </item>
+
+    <!-- Valohäive -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#80FFFFFF"/> <!-- Läpinäkyvä valkoinen -->
+            android:endColor="#22FFFFFF" <!-- Vielä läpinäkyvämpi -->
+            android:angle="45" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+</layer-list>

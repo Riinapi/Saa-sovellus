@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="sininen">#07102c</color>
+    <color name="vaaleansininen">#4e9ce5</color>
+    <color name="harmaa">#757575</color>
+    <color name="vihrea">#00cc66</color>
+    <color name="punainen">#ff471a</color>
+
+</resources>

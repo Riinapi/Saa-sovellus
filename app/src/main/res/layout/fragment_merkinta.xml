@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tausta"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <EditText
+        android:id="@+id/etxPaiva"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/glass_background"
+        android:ems="10"
+        android:hint="Päivämäärä"
+        android:inputType="date"
+        android:padding="10dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etxPaikka"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/glass_background"
+        android:hint="Sijainti"
+        android:padding="10dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etxLampotila"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/glass_background"
+        android:hint="°C"
+        android:padding="10dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etxTeksti"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/glass_background"
+        android:hint="Havainnot"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:padding="10dp"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTallenna"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/vaaleansininen"
+            android:text="Tallenna"
+            android:textSize="20dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnTyhjenna"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/vaaleansininen"
+            android:text="Tyhjennä"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>

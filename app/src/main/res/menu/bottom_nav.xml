@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/saa"
+        android:icon="@drawable/baseline_sunny_24"
+        android:title="Sää" />
+    <item
+        android:id="@+id/merkinta"
+        android:icon="@drawable/baseline_edit_document_24"
+        android:title="Merkintä" />
+    <item
+        android:id="@+id/kaikki"
+        android:icon="@drawable/baseline_menu_book_24"
+        android:title="Kaikki" />
+
+</menu>

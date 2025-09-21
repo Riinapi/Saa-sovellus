@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNav_NoText" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="labelVisibilityMode">unlabeled</item>
+        <item name="itemIconSize">40dp</item>
+        <!-- Ikonien värit (aktiivinen ja passiivinen tila) -->
+        <item name="itemIconTint">@color/nav_item_color</item>
+
+
+    </style>
+</resources>
