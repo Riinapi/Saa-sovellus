@@ -20,3 +20,10 @@ Korvaa SaaFragment.kt tiedostossa:
 
 ## Koodi
 Sovelluksen koodi löytyy pääosin app/src/main/java/ -kansiosta
+
+## Screenshots
+<p float="left">
+  <img src="Screenshots/saa_1.png" width="200" />
+  <img src="Screenshots/saa_3.png" width="200" />
+  <img src="Screenshots/saap_4.png" width="200" />
+</p>
